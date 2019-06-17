@@ -1,24 +1,24 @@
 # Table of Contents
 
-1. [Installation](#Installation)
-2. [Project Motivation](#Project Motivation)
-3. [File Descriptions](#File Descriptions)
-4. [Project Process](#Project Process)
-5. [Licensing, Authors, Acknowledgements](#Licensing, Authors, Acknowledgements)
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Project Process](#process)
+5. [Licensing, Authors, Acknowledgements](#licensing)
 
-# Installation
+# Installation <a name="installation"></a>
 The xgboost library is needed to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3. See the requirements.txt file for details about library versions.
 
-# Project Motivation
+# Project Motivation <a name="motivation"></a>
 Since I'm both a big tennis fan and data nerd, I've long wanted to know how a machine learning algorithm would cope against the best fantasy tennis players in the world.
 
-# File Descriptions
+# File Descriptions <a name="files"></a>
 Input data used:
 - **data/tdc/tdc_2018.csv**: Data about the best fantasy tennis player's predictions for 2018. Manually collected data from www.tennisdrawchallenge.com
 - **data/atp** (directory): ATP data provided by Jeff Sackmann on https://github.com/JeffSackmann/tennis_atp
 - **tennis-blog.ipynb**: Exploratory notebook with all steps necessary to answer the question if a machine could beat the best fantasy tennis player.
 
-# Project Process
+# Project Process <a name="process"></a>
 When working with this project I followed the CRISP-DM process. The details are found in the notebook but here is a quick summary:
 
 ## Business Understanding
@@ -48,7 +48,7 @@ https://medium.com/@marcusnilsson78/can-a-machine-beat-the-best-tennis-player-in
 ## Deploy
 Output of this project was a notebook and a blog post so nothing were deployed into production.
 
-# Licensing, Authors, Acknowledgements
+# Licensing, Authors, Acknowledgements <a name="licensing"></a>
 ## Code
 Copyright 2019 Marcus Nilsson
 
