@@ -22,11 +22,10 @@ Input data used:
 When working with this project I followed the CRISP-DM process. The details are found in the notebook but here is a quick summary:
 
 ## Business Understanding
-To answer the question if a machine learning model could beat the best fantasy tennis player in the world I set out to do four things:
-1. Set the rules for a challenge
-2. Create a benchmark prediction for the challenge
-3. Test how well the best fantasy tennis player performs for the challenge
-4. Build a machine learning model and test it on the challenge
+To find out if a machine learning model could beat a fantasy tennis player I created a challenge where the goal was to predict the correct winners of tennis matches. I then tried to answer three questions:
+1. How good would the strategy of always picking the best ranked player be? (Benchmark Prediction)
+2. How good is the best fantasy tennis player at predicting tennis matches? (Best Fantasy Tennis Player Prediction)
+3. How good is a machine learning model at predicting tennis matches? (Machine Learning Prediction)
 
 ## Data Understanding
 To be able to answer the question I manually collected data on the best fantasy tennis player from www.tennisdrawchallenge.com. In addition I got ATP tennis data from Jeff Sackmann's Github repository.
@@ -43,7 +42,7 @@ First I choose to use accuracy as the metric to evaluate model performance. Next
 
 ## Results
 Using a XGBoost model I managed to beat the best fantasy tennis player in the world. More details are found in this blog post:
-https://medium.com/@marcusnilsson78/can-a-machine-beat-the-best-tennis-player-in-the-world-79112b47f547
+https://medium.com/@marcusnilsson78/can-a-machine-beat-the-best-fantasy-tennis-player-in-the-world-130538bd3e11
 
 ## Deploy
 Output of this project was a notebook and a blog post so nothing were deployed into production.
