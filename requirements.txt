@@ -48,7 +48,7 @@ nbconvert==5.5.0
 nbexamples==0.0.0
 nbformat==4.4.0
 nbserverproxy==0.3.2
-notebook==5.7.8
+notebook==6.1.5
 numpy==1.16.4
 pandas==0.22.0
 pandocfilters==1.4.2
