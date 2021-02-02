@@ -4,7 +4,7 @@ autovizwidget==0.12.7
 awscli==1.16.170
 backcall==0.1.0
 bcrypt==3.1.6
-bleach==3.1.0
+bleach==3.3.0
 boto3==1.9.160
 botocore==1.12.160
 cached-property==1.5.1
